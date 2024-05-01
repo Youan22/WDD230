@@ -1,0 +1,118 @@
+.darkmode {
+    background-color: black;
+    color: white;
+  }
+  main section {
+    margin-bottom: 2rem;
+  }
+  main section h2 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+  }
+  nav {
+    background-color: black;
+    text-align: center;
+    display: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    /*background-color: rgb(128, 128, 128, 0.8);*/
+  }
+  
+  #hamburgerBtn::before {
+    content:'\2630'; 
+  
+  }
+  
+  #hamburgerBtn.open::before {
+    content:'X'; 
+  
+  }
+  
+   nav ul li a:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+   
+  }
+  
+  svg {
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  
+  /*Element Selector*/
+  header {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  header span {
+    color: white;
+    font-size: 50px;
+  }
+  
+  footer span {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  img {
+    width: 100px;
+    margin-right: 15px;
+    margin-left: -80px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    font-size: smaller;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: block;
+  }
+  
+  
+  /* Additional styles for larger views if needed */
+  
+  #hamburgerBtn {
+    background-color: grey;
+    margin: 0 auto;
+    display: block;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.25rem 2vw;
+  }
+  #hamburgerBtn.open::before {
+    content: "✕";
+    color: white;
+  }
+  
+  .open {
+    display: block;
+  }
+  

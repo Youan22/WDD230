@@ -1,0 +1,16 @@
+/* mobile.css */
+
+@media only screen and (max-width: 600px) {
+    body {
+      /* Adjust body styles for smaller screens */
+      font-size: 16px;
+    }
+    /* You can add more styles for specific elements as needed */
+  
+  footer {
+    padding: 1rem; /* Decrease padding for footer */
+  }
+  p {
+    font-size: 14px; /* Reduce font size for paragraphs */
+  }
+}  
