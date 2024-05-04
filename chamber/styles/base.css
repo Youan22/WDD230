@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hero-image {
+    background-image: linear-gradient(
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)),
+        url("images/Manhathan-Hero-1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
