@@ -1,17 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto+Mono:ital,wght@1,300&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+a {
+    font-size: 35px;
 }
 
-.hero-image {
-    background-image: linear-gradient(
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)),
-        url("images/Manhathan-Hero-1.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb;
+    padding: 35px;
+    font-family: "Roboto";
+}
+
+nav a:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+header {
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 150px;
+    height: 125px;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero-box {
+    position: relative;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hero-msg .join {
+    display: inline-block;
+    background-color: #396E94;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero-msg h4 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    }
+footer a:hover{
+      color: lightgray;
+    
+    }
+    footer p {
+        font-size: 1.2em;
+    }    
+    footer p a:hover {
+        text-decoration: underline;
+    }   
+
+ footer{
+        background-color:  #396E94;
+        color: white;
+        padding: 25px 50px;
+        margin-top: 600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+        footer .social img {
+            padding-top: 15px;
+        }
+body {
+    background-color: white;
+}
+
+h1, h4 {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+}
+
+
+.Description {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.hosue_images {
+    width: 400px;
 }
