@@ -1,0 +1,27 @@
+
+main {
+    flex: 1; /* This makes the main content area take up the remaining vertical space */
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the body takes up at least the full height of the viewport */
+    margin: 0;
+  }
+  footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    font-size: smaller;
+  }
