@@ -105,6 +105,9 @@
     display: block;
   }
   
+  h1 {
+    text-align: center;
+  }
   
   /* Additional styles for larger views if needed */
   
@@ -127,3 +130,17 @@
     display: block;
   }
   
+/* Hero image */
+  .hero {
+      position: relative;
+  }
+
+
+  .hero img {
+width: 100%;
+height: auto;
+  }
+
+  .hero span {
+
+  }
