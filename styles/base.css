@@ -142,5 +142,13 @@ height: auto;
   }
 
   .hero span {
+  position: absolute;
+	top: 30px;
+	left: 200px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.60);
+	padding: 1rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
 
   }
