@@ -3,9 +3,7 @@
     main {
       width: 80%;
       margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 20px;
+    
     }
   
     nav {
@@ -16,9 +14,17 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
     }
+
+   
+    main div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
     main h1 {
       grid-column: span 2;
       text-align: center;
+
     }
   
     #hamburgerBtn {

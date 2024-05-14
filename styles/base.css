@@ -3,12 +3,12 @@
     color: white;
   }
 
-  Body {
+  /*Body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* This ensures that the content takes at least the full height of the viewport */
+    min-height: 100vh;  This ensures that the content takes at least the full height of the viewport 
     margin: 0;
-  }
+  } */
   main {
     flex: 1;
   }
