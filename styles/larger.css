@@ -16,10 +16,11 @@
     }
 
    
-    main div {
+    main div.info {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 20px;
+
     }
     main h1 {
       grid-column: span 2;
