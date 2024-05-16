@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="WDD 230 - Web Frontend Development Rubinel Youan Bi course assignment portal"/>
+    <meta name="description" content="WDD 230 - Web Frontend Development Rubinel Youan Bi Form Page"/>
     <meta name="author" content="Rubinel Youan Bi" />
     <meta property="og:title" content="Rubinel Youan Bi" />
     <meta property="og:type" content="website" />
@@ -70,10 +70,11 @@
               <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$">
             </div>
             <div>
-              <label for="page_rating">Page Rating:</label>
-              <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" value="5">
-              <output for="page_rating">5</output>
-            </div>
+                <label for="page_rating">Page Rating:</label>
+                <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" value="10" oninput="updatePageRating(this.value)">
+                <output for="page_rating" id="page_rating_output"></output>
+              </div>
+              
           </fieldset>
           <button type="submit">Submit</button>
         </form>
