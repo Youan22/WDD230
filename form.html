@@ -16,6 +16,7 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body>
     <header>
@@ -42,46 +43,42 @@
     <nav>
       <!-- Navigation links go here -->
       <ul>
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="chamber/index.html">Chamber</a></li>
         <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="form.html">Form</a></li>
+        <li class="active"><a href="form.html">Form</a></li>
       </ul>
     </nav>
     <main>
-      <div class="hero">
-        <picture>
-          <source srcset="images/hero-small.webp" media="(max-width: 400px)">
-          <source srcset="images/hero-large.webp" media="(max-width: 960px)">
-          <img src="images/hero-large.webp" alt="table setting" width="1500" height="750"> 
-        </picture>
-        <span>Washington DC Temple</span>
-      </div>
+        <form id="myForm" action="record.html" method="get">
+          <fieldset>
+            <legend>User Information</legend>
+            <div>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required pattern="^[A-Za-z0-9]{8,}$">
+            </div>
+            <div>
+              <label for="confirm_password">Confirm Password:</label>
+              <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$">
+            </div>
+            <div>
+              <label for="page_rating">Page Rating:</label>
+              <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" value="5">
+              <output for="page_rating">5</output>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </main>
       
-      <h1>WDD 230: Web Frontend Development</h1>
-
-      <div class="info">
-      <section class="card">
-        <h2>Learning Activities</h2>
-       <!-- <a href="week03/images/landscape.webp">WebP</a>-->
-
-        <ul>
-          <li>Week01: <a href="week01/holygrail.html">Holy Grail</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
-          <li>Week02: <a href="./week02/design.html">Design Principal</a> | <a href="./week02/bom.html">DOM Manipulation</a></li>
-          <li>Week03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/book-of-mormon.html">Storage</a></li>
-          <li>Week04:<a href="week04/images/csscombinator.png">CSS Combinators</a> | <a href="https://codepen.io/Rubinel-Youan-Bi/pen/jOobrbP">Pseudo-classes</a> | <a href="week04/tablebuild.html">Table Build</a> | <a href="week04/Form-start/index.html">HTML Forms</a></li>
-          <li>Week05:</li>
-          <li>Week06:</li>
-        </ul>
-      </section>
-      <!--This is how you create a class in html-->
-
-      <section class="card">
-        <h2>Information</h2>
-      </section>
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15890.354427035702!2d-4.030521388069266!3d5.326678829552789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1eba131366553%3A0xbb6747e85334c6ea!2sPlateau%2C%20Abidjan%2C%20C%C3%B4te%20d&#39;Ivoire!5e0!3m2!1sen!2sus!4v1715486781772!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </main>
    
     <footer>
       <p>&copy; <span class="current_year"></span> Rubinel Youan Bi | Rexburg, ID, United States </p>
@@ -89,5 +86,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/formvalidation.js"></script>
   </body>
 </html>
