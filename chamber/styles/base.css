@@ -23,9 +23,12 @@ nav a:hover {
 }
 
 header {
-    background-color: #396E94;
-    display: grid;
-    grid-template-columns: 150px auto;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: larger;
 }
 
 .logo {
@@ -68,33 +71,20 @@ header {
     font-size: 18px;
 }
 
-footer a{
-    color: white;
-    text-decoration: none;
-    }
-footer a:hover{
-      color: lightgray;
-    
-    }
-    footer p {
-        font-size: 1.2em;
-    }    
-    footer p a:hover {
-        text-decoration: underline;
-    }   
+footer {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 2rem;
+  font-size: smaller;
+}
+ 
+footer span {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
 
- footer{
-        background-color:  #396E94;
-        color: white;
-        padding: 25px 50px;
-        margin-top: 600px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        }
-        footer .social img {
-            padding-top: 15px;
-        }
 body {
     background-color: white;
 }
@@ -220,6 +210,30 @@ h1, h4 {
     margin: 1rem;
   }
   
+
+   /*hamburger button */
+   #hamburgerBtn::before {
+    content:'\2630'; 
+  
+  }
+  
+  #hamburgerBtn.open::before {
+    content:'X'; 
+    color: white;
+  
+  }
+  #hamburgerBtn {
+    background-color: grey;
+    margin: 0 auto;
+    display: block;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.25rem 2vw;
+  }
+  
+  
   @media only screen and (max-width: 550px) {
     .container {
       grid-template-columns: 1fr;
@@ -233,4 +247,6 @@ h1, h4 {
         "weather";
     }
   }
+  
+ 
   
