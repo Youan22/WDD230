@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official Home Page for the WWD 230  website Project Title: 'Manhattan Chamber of Commerce Home Page'. Discover the heart of commerce in Manhattan with the Chamber of Commerce. As your premier resource hub, we connect businesses, foster growth, and advocate for economic prosperity.">
+    <meta name="description" content="Official Home Page for the WWD 230 website Project Title: 'Manhattan Chamber of Commerce Home Page'. Discover the heart of commerce in Manhattan with the Chamber of Commerce. As your premier resource hub, we connect businesses, foster growth, and advocate for economic prosperity.">
     <meta name="author" content="Rubinel Youan Bi" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css">
@@ -20,12 +20,9 @@
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="#">
-            </a>
-            <button id="hamburgerBtn"></button>
-            <nav>
-                <a href="index.html">Home</a>
+            <button id="menu"></button>
+            <nav class="navigation">
+                <a href="index.html" class="active">Home</a>
                 <a href="discover.html">Discover</a>
                 <a href="directory.html">Directory</a>
                 <a href="join.html">Join</a>
@@ -36,30 +33,27 @@
             <div id="hero-box">
                 <img id="hero-img" src="images/hero.png" alt="Manhattan view during beautiful fall sunny day.">
                 <section id="hero-msg">
-                    
                     <div class="button-box">
                         <a class="join" href="join.html">Join Now</a>
                     </div>
-                   
                 </section>
             </div>
         </div>
     </div>
 
-    <h1 class="home-title">Welcome to the Manhattan Chamber of Commerce !</h1>
+    <h1 class="home-title">Welcome to the Manhattan Chamber of Commerce!</h1>
     <h4>Veni, vidi, vici.</h4>
 
     <div class="container">
-      <div id="spotlight">Company Spotlight</div>
-      <div id="news">News</div>
-      <div id="business">Find Local Business</div>
-      <div id="weather">Weather</div>
-    
+        <div id="spotlight">Company Spotlight</div>
+        <div id="news">News</div>
+        <div id="business">Find Local Business</div>
+        <div id="weather">Weather</div>
     </div>
 
     <footer>
-        <p>&copy; <span class='current_year'></span> Rubinel Youan Bi | Rexburg, ID, United States </p>
-        <p>Last Updated: <span id='lastModified'></span></p>
+        <p>&copy; <span class="current_year"></span> Rubinel Youan Bi | Rexburg, ID, United States </p>
+        <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
 
     <script src="scripts/getDates.js"></script>
