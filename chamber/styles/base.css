@@ -336,3 +336,50 @@ form label{
 #content-wrap {
   flex: 1;
 }
+
+/* Discover */
+:root {
+  --darker-green: #767a66;
+  --dark-green: #ccd5ae;
+  --light-green: #e9edc9;
+  --cream: #fefae0;
+  --tan: #faedcd;  
+  --brown: #d4a373;
+}
+
+.discover-main section {
+  border: 2px black solid;
+  margin: 1rem;    
+}
+
+.discover-image {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 432px;    
+}
+
+.discover-image div {    
+  margin: 1rem;    
+}
+
+.discover-demographics h2 {    
+  margin: 1rem;
+  font-weight: normal; /* Added to make h2 not bold */
+  text-align: left;
+}
+
+.discover-demographics h3 {    
+  margin: 1rem;
+  font-weight: normal; /* Added to make h3 not bold */
+}
+
+.discover-main section {    
+  margin: 1rem;
+}
+
+.discover-main img {
+  width: 400px;
+  height: auto;
+}
+
