@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Home Page for the WWD 230 website Project Title: 'Manhattan Chamber of Commerce Home Page'. Discover the heart of commerce in Manhattan with the Chamber of Commerce. As your premier resource hub, we connect businesses, foster growth, and advocate for economic prosperity.">
+    <meta name="author" content="Rubinel Youan Bi" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="Manhattan Chamber of Commerce" />
+    <meta property="og:type" content="website" />   
+    <meta property="og:url" content="https://youan22.github.io/wdd230/" />
+    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/sanmateoca/SSF-City-Hall-by-Billy-Hustace---given-with-permission-by-SSF_FEF3229E-5056-A36A-0B8314AC1410463D-fef320315056a36_fef32c0c-5056-a36a-0b6cef0855ac14ce.jpg"/>
+    
+    <title>Manhattan Chamber of Commerce</title>
+    
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+    <div id="content">
+        <header>
+            <button id="menu"></button>
+            <nav class="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+            </nav>
+        </header>
+       
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="Manhattan view during beautiful fall sunny day.">
+                <section id="hero-msg">
+                    <div class="button-box">
+                        <a class="join" href="join.html">Join Now</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="home-title">Welcome to the Manhattan Chamber of Commerce!</h1>
+    <h4>Veni, vidi, vici.</h4>
+    <main class="join">
+        <div class="form">
+            <h1>Join The Chamber</h1>
+            <form action="../thankyou.html" method="GET" autocomplete="on">
+                <label for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
+
+                <label for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
+
+                <label for="business">Business Name*<input type="text" id="business" name="business" pattern="[- A-Z a-z 0-9]" ></label>
+
+                <label for="title">Job Title<input type="text" id="title" name="title"></label>
+
+                <label for="email">Email*<input type="email" placeholder="email@example.com" id="email" name="email" required></label>
+
+                <label for="phone">Phone*<input type="tel" id="phone" name="phone" required></label>
+
+                <label for="membership">
+                    Choose a membership level:
+                    <select id="membership" name="membership">
+                        <option selected disabled hidden>Make a Selection</option>
+                        <option value="NP">Nonprofit</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+                <label for="desc">Business Description<textarea name="desc" id="desc"></textarea></label>
+                <input type="hidden" name="dateTime" id="dateTime">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+        <div class="membershipLevels">
+             <h1>Membership Levels</h1>
+            <div class="nonprofit">
+                <h2>Nonprofit</h2>
+                <p class="fee">No fee</p>
+                <p>
+                    Nonprofit membership is for businesses that are not for profit and are not
+                    self-employed.
+                </p>
+            </div>
+
+            <div class="bronze">
+                <h2>Bronze</h2>
+                <p class="fee">$50/month</p>
+                <p>
+                    Bronze membership is for businesses with less than 50 employees that are for profit. Benefits
+                    include:
+                </p>
+                <ul>
+                    <li>15% discount on events</li>
+                    <li>10% discount on advertising</li>
+                </ul>
+            </div>
+            <div class="silver">
+                <h2>Silver</h2>
+                <p class="fee">$100/month</p>
+                <p>
+                    Silver membership is for businesses with less than 250 employees that are for profit. Additional
+                    benefits include:
+                </p>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                </ul>
+            </div>
+            <div class="gold">
+                <h2>Gold</h2>
+                <p class="fee">$250/month</p>
+                <p>
+                    Gold membership is for businesses with more than 250 employees that are for profit. Additional
+                    benefits include:
+                </p>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>5 featured ads per year</li>
+                    <li>1 free training per quarter</li>
+                </ul>
+            </div>
+         </div>
+    </main>
+    <footer>
+        <p>&copy; <span class="current_year"></span> Rubinel Youan Bi | Rexburg, ID, United States </p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

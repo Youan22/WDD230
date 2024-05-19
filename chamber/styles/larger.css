@@ -24,3 +24,28 @@
 		flex: 1 1 100%;
 	}
 }
+
+#join {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.join{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 10px;
+}
+
+.form{
+  color:#493b2a ;
+  background-color: #e8bf9a;
+  grid-column: 2/3;
+  grid-row:1/3;
+  padding: 20px;
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+

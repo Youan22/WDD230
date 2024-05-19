@@ -268,5 +268,39 @@ h1, h4 {
   
 
   
- 
-  
+#join { 
+  display: none;
+}
+
+.a-button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 1.5rem;
+  padding: .5rem;
+  background-color: var(--tan);
+  border-radius: 10px;    
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-left: 1rem;
+  margin-right: 1rem;    
+}
+
+.main-join .a-button{
+  position: static;
+}
+.membershipLevels {
+  background-color:  #e8bf9a;
+  padding: 1rem;
+}
+.main.join {
+  background-color: #e8bf9a;
+  font-size: 18px;
+}
+.form{
+  padding: 1rem;
+}
+form label{
+  padding: 1rem;
+}
