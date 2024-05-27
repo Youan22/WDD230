@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name":"Encompass Media Group",
+            "streetAddress":"1111 44th Dr",
+            "cityStateZip":"Long Island City, NY 11101",
+            "phoneNumber":"208-458-0154",
+            "websiteURL":"https://www.jpmorganchase.com/",
+            "imageURL":"",
+            "membershipLevel":"Gold",
+            "adcopy":"Deal directly with problems. Value everyone equally."
+        },
+        {
+            "name":"The Guardian",
+            "streetAddress":"61 Broadway",
+            "cityStateZip":"New York, NY 10006",
+            "phoneNumber":"(917) 900 4675",
+            "websiteURL":"https://workforus.theguardian.com/",
+            "imageURL":"",
+            "membershipLevel":"Gold",
+            "adcopy":"Honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.."
+        },
+        {
+            "name":"Educational Alliance",
+            "streetAddress":"344 East 14th Street",
+            "cityStateZip":"New York, NY 100031",
+            "phoneNumber":"212.780.0800",
+            "websiteURL":"https://edalliance.org/",
+            "imageURL":"",
+            "membershipLevel":"nonprofit",
+            "adcopy":"You belong here"
+        },
+        {
+            "name":"Hubble Contacts",
+            "streetAddress":"215 Park Ave S Fl 11",
+            "cityStateZip":"New York, NY 10003-1626",
+            "phoneNumber":"(844) 334-16201",
+            "websiteURL":"https://www.hubblecontacts.com/",
+            "imageURL":"",
+            "membershipLevel":"gold",
+            "adcopy":"Make ordering contact lenses online as simple and affordable as possible"
+        },
+        {
+            "name":"MikeWorldWide",
+            "streetAddress":"1250 Broadway 3rd Floor",
+            "cityStateZip":"New York, NY 10001",
+            "phoneNumber":"(212) 704-9727",
+            "websiteURL":"https://www.mww.com/",
+            "imageURL":"",
+            "membershipLevel":"Gold",
+            "adcopy":"MikeWorldWide is one of the worlds leading independent public relations agencies. With a fearless approach to PR, we push beyond the boundaries of expected thinking."
+        },
+        {
+            "name":"Con Edison",
+            "streetAddress":"4 Irving Place, Room 700",
+            "cityStateZip":"New York, NY 10003",
+            "phoneNumber":"(800) 752-6633",
+            "websiteURL":"https://www.conedison.com/en/",
+            "imageURL":"",
+            "membershipLevel":"Gold",
+            "adcopy":"Providing electric, gas, and steam to NYC and Westchester. Pay your bill, manage your account, report an outage, and learn how to save energy."
+        },
+        {
+            "name":"Nicholas & Lence Communications",
+            "streetAddress":"28 W 44th St #301",
+            "cityStateZip":"New York, NY 10036",
+            "phoneNumber":"(212) 938-0001",
+            "websiteURL":"https://nicholaslence.com/",
+            "imageURL":"./images/",
+            "membershipLevel":"Silver",
+            "adcopy":"Specialize in media relations, community and government relations, crisis management, destination marketing, and corporate positioning."
+        },
+        {
+            "name":"Savills New York (North America HQ)",
+            "streetAddress":"399 Park Ave 11th Floor",
+            "cityStateZip":"New York, NY 10022",
+            "phoneNumber":"(212) 326-1000",
+            "websiteURL":"https://www.savills.us/offices/new-york.aspx?utm_source=Google&utm_medium=Local&utm_campaign=NY",
+            "imageURL":"./images/",
+            "membershipLevel":"silver",
+            "adcopy":"Savills offers a wide range of specialist services from financial and investment advice to valuation, planning and property management."
+        },
+        {
+            "name":"Attitude New York Inc.",
+            "streetAddress":"4850 34th St",
+            "cityStateZip":"Long Island City, NY 11101-2516",
+            "phoneNumber":"212-397-0004",
+            "websiteURL":"https://www.attitudenewyork.com/",
+            "imageURL":"./images/",
+            "membershipLevel":"Bronze",
+            "adcopy":"This is a high-end luxury chauffeured limousine service using the newest vehicles."
+        }                
+    ]
+}

@@ -1,0 +1,56 @@
+/* Ensure the entire page takes up the full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take up all available space */
+main {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+header, footer {
+    background-color: #000;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Center align the title */
+h1 {
+    text-align: center;
+    color: navy;
+    margin: 20px 0;
+}
+
+/* Center the paragraph text */
+p1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: auto;
+    max-width: 100px;
+    box-shadow: 0 0 10px #777;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 20px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
