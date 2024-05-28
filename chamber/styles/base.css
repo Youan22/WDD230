@@ -383,3 +383,79 @@ form label{
   height: auto;
 }
 
+
+
+/* Directory Page Stuff */
+.directory-main{
+  width: 100%;
+}
+
+#directory-selector{
+  width: 100%;
+  text-align: center;
+}
+
+#directory-selector button{
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 5px;
+  background-color: var(--darker-green);
+  border: 1px black solid;
+}
+
+#directory-selector button.active{
+  background-color: rgb(214, 71, 19);
+}
+
+/* Cards view */
+
+.directory-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+}
+
+.directory-cards section{
+  text-align: center;    
+  border: 2px solid navy;    
+  width: 300px;
+  background-color: var(--darker-green);
+  padding: 1rem;
+  margin: .5rem;
+}
+
+/* List View */
+
+.directory-list{    
+  display: grid;
+  justify-items: center;   
+  padding: 1rem;    
+}
+
+.directory-main a{    
+  color: lightgrey;
+}
+
+.directory-main a:visited{    
+  color: lightgrey;
+}
+
+.directory-list section img{
+  display: none;
+}
+
+.directory-list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 70%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+  background-color: var(--darker-green);
+}
+
+.directory-list section:nth-child(even) {
+  background-color: var(--dark-green);
+}

@@ -6,7 +6,7 @@
             "cityStateZip":"Long Island City, NY 11101",
             "phoneNumber":"208-458-0154",
             "websiteURL":"https://www.jpmorganchase.com/",
-            "imageURL":"",
+            "imageURL":"./images/encompass.png",
             "membershipLevel":"Gold",
             "adcopy":"Deal directly with problems. Value everyone equally."
         },
@@ -16,7 +16,7 @@
             "cityStateZip":"New York, NY 10006",
             "phoneNumber":"(917) 900 4675",
             "websiteURL":"https://workforus.theguardian.com/",
-            "imageURL":"",
+            "imageURL":"./chamber/images/thegardians.webp",
             "membershipLevel":"Gold",
             "adcopy":"Honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.."
         },
@@ -36,7 +36,7 @@
             "cityStateZip":"New York, NY 10003-1626",
             "phoneNumber":"(844) 334-16201",
             "websiteURL":"https://www.hubblecontacts.com/",
-            "imageURL":"",
+            "imageURL":"./images/",
             "membershipLevel":"gold",
             "adcopy":"Make ordering contact lenses online as simple and affordable as possible"
         },
@@ -46,7 +46,7 @@
             "cityStateZip":"New York, NY 10001",
             "phoneNumber":"(212) 704-9727",
             "websiteURL":"https://www.mww.com/",
-            "imageURL":"",
+            "imageURL":"./images/",
             "membershipLevel":"Gold",
             "adcopy":"MikeWorldWide is one of the worlds leading independent public relations agencies. With a fearless approach to PR, we push beyond the boundaries of expected thinking."
         },
@@ -56,7 +56,7 @@
             "cityStateZip":"New York, NY 10003",
             "phoneNumber":"(800) 752-6633",
             "websiteURL":"https://www.conedison.com/en/",
-            "imageURL":"",
+            "imageURL":"./images/",
             "membershipLevel":"Gold",
             "adcopy":"Providing electric, gas, and steam to NYC and Westchester. Pay your bill, manage your account, report an outage, and learn how to save energy."
         },
