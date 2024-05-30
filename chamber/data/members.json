@@ -5,8 +5,8 @@
             "streetAddress":"1111 44th Dr",
             "cityStateZip":"Long Island City, NY 11101",
             "phoneNumber":"208-458-0154",
-            "websiteURL":"https://www.jpmorganchase.com/",
-            "imageURL":"./images/encompass.png",
+            "websiteURL":"https://www.emgmediainc.com/",
+            "imageURL":"./images/encompass-group.png",
             "membershipLevel":"Gold",
             "adcopy":"Deal directly with problems. Value everyone equally."
         },
@@ -16,7 +16,7 @@
             "cityStateZip":"New York, NY 10006",
             "phoneNumber":"(917) 900 4675",
             "websiteURL":"https://workforus.theguardian.com/",
-            "imageURL":"./images/thgardians.png",
+            "imageURL":"./images/thgardians-opt.png",
             "membershipLevel":"Gold",
             "adcopy":"Honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.."
         },
@@ -56,7 +56,7 @@
             "cityStateZip":"New York, NY 10003",
             "phoneNumber":"(800) 752-6633",
             "websiteURL":"https://www.conedison.com/en/",
-            "imageURL":"./images/",
+            "imageURL":"./images/conedison-opt.jpeg",
             "membershipLevel":"Gold",
             "adcopy":"Providing electric, gas, and steam to NYC and Westchester. Pay your bill, manage your account, report an outage, and learn how to save energy."
         },
@@ -66,7 +66,7 @@
             "cityStateZip":"New York, NY 10036",
             "phoneNumber":"(212) 938-0001",
             "websiteURL":"https://nicholaslence.com/",
-            "imageURL":"./images/conedison.jpeg",
+            "imageURL":"./images/nicolas-lens-logo.png",
             "membershipLevel":"Silver",
             "adcopy":"Specialize in media relations, community and government relations, crisis management, destination marketing, and corporate positioning."
         },
