@@ -152,7 +152,35 @@ height: auto;
 	opacity: 0.75;
 
   }
-  /*.main-weather{
-    grid-area: w;
-    text-align: center;
-}*/
+
+
+/* Center the content of the .card section */
+section.card {
+  display: flex;
+  flex-direction: column;
+
+}
+
+section.card h2, 
+section.card h3, 
+section.card p, 
+section.card img {
+  margin: 4px 0;
+  text-align: none;
+  font-size: large;
+}
+
+section.card div.card {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  margin: 20px 0;
+}
+
+
+/* Specific styles for the weather-icon image */
+#weather-icon {
+  width: 70px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
