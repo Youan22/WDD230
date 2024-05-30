@@ -1,0 +1,86 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query"
+          },
+          {
+            "url": "week01/js-pen.html",
+            "title": "JS Pen"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design Principal"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Loading"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Responsive Images"
+          },
+          {
+            "url": "week03/book-of-mormon.html",
+            "title": "Storage"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/images/csscombinator.png",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "https://codepen.io/Rubinel-Youan-Bi/pen/jOobrbP",
+            "title": "Pseudo-classes"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Table Build"
+          },
+          {
+            "url": "week04/Form-start/index.html",
+            "title": "HTML Forms"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/Rubinel-Youan-Bi/pen/OJYNWeY?editors=0100",
+            "title": "Pseudo-elements"
+          }
+        ]
+      }
+    ]
+  }
+  

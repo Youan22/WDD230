@@ -152,3 +152,7 @@ height: auto;
 	opacity: 0.75;
 
   }
+  .main-weather{
+    grid-area: w;
+    text-align: center;
+}

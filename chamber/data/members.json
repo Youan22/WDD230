@@ -16,7 +16,7 @@
             "cityStateZip":"New York, NY 10006",
             "phoneNumber":"(917) 900 4675",
             "websiteURL":"https://workforus.theguardian.com/",
-            "imageURL":"./chamber/images/thegardians.webp",
+            "imageURL":"./images/thgardians.png",
             "membershipLevel":"Gold",
             "adcopy":"Honesty, integrity, courage, fairness, and a sense of duty to the reader and the community.."
         },
@@ -26,7 +26,7 @@
             "cityStateZip":"New York, NY 100031",
             "phoneNumber":"212.780.0800",
             "websiteURL":"https://edalliance.org/",
-            "imageURL":"",
+            "imageURL":"./images/edu-alliance.png",
             "membershipLevel":"nonprofit",
             "adcopy":"You belong here"
         },
@@ -36,7 +36,7 @@
             "cityStateZip":"New York, NY 10003-1626",
             "phoneNumber":"(844) 334-16201",
             "websiteURL":"https://www.hubblecontacts.com/",
-            "imageURL":"./images/",
+            "imageURL":"./images/hubble-contacts.png",
             "membershipLevel":"gold",
             "adcopy":"Make ordering contact lenses online as simple and affordable as possible"
         },
@@ -46,7 +46,7 @@
             "cityStateZip":"New York, NY 10001",
             "phoneNumber":"(212) 704-9727",
             "websiteURL":"https://www.mww.com/",
-            "imageURL":"./images/",
+            "imageURL":"./images/mikeworldwide.jpeg",
             "membershipLevel":"Gold",
             "adcopy":"MikeWorldWide is one of the worlds leading independent public relations agencies. With a fearless approach to PR, we push beyond the boundaries of expected thinking."
         },
@@ -66,7 +66,7 @@
             "cityStateZip":"New York, NY 10036",
             "phoneNumber":"(212) 938-0001",
             "websiteURL":"https://nicholaslence.com/",
-            "imageURL":"./images/",
+            "imageURL":"./images/conedison.jpeg",
             "membershipLevel":"Silver",
             "adcopy":"Specialize in media relations, community and government relations, crisis management, destination marketing, and corporate positioning."
         },
@@ -76,7 +76,7 @@
             "cityStateZip":"New York, NY 10022",
             "phoneNumber":"(212) 326-1000",
             "websiteURL":"https://www.savills.us/offices/new-york.aspx?utm_source=Google&utm_medium=Local&utm_campaign=NY",
-            "imageURL":"./images/",
+            "imageURL":"./images/savills.jpg",
             "membershipLevel":"silver",
             "adcopy":"Savills offers a wide range of specialist services from financial and investment advice to valuation, planning and property management."
         },
@@ -86,7 +86,7 @@
             "cityStateZip":"Long Island City, NY 11101-2516",
             "phoneNumber":"212-397-0004",
             "websiteURL":"https://www.attitudenewyork.com/",
-            "imageURL":"./images/",
+            "imageURL":"./images/attitude.jpeg",
             "membershipLevel":"Bronze",
             "adcopy":"This is a high-end luxury chauffeured limousine service using the newest vehicles."
         }                
