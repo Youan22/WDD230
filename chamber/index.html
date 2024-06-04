@@ -1,63 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official Home Page for the WWD 230 website Project Title: 'Manhattan Chamber of Commerce Home Page'. Discover the heart of commerce in Manhattan with the Chamber of Commerce. As your premier resource hub, we connect businesses, foster growth, and advocate for economic prosperity.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official Home Page for the WWD 230 website Project Title: Manhattan Chamber of Commerce Home Page."
+    />
     <meta name="author" content="Rubinel Youan Bi" />
     <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
     <meta property="og:title" content="Manhattan Chamber of Commerce" />
-    <meta property="og:type" content="website" />   
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://youan22.github.io/wdd230/" />
-    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/sanmateoca/SSF-City-Hall-by-Billy-Hustace---given-with-permission-by-SSF_FEF3229E-5056-A36A-0B8314AC1410463D-fef320315056a36_fef32c0c-5056-a36a-0b6cef0855ac14ce.jpg"/>
-    
-    <title>Manhattan Chamber of Commerce</title>
-    
-    <link rel="icon" href="favicon.ico" />
-</head>
-<body>
-    <div id="content">
-        <header>
-            <button id="menu"></button>
-            <nav class="navigation">
-                <a href="index.html" class="active">Home</a>
-                <a href="discover.html">Discover</a>
-                <a href="directory.html">Directory</a>
-                <a href="join.html">Join</a>
-            </nav>
-        </header>
-       
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/hero.png" alt="Manhattan view during beautiful fall sunny day.">
-                <section id="hero-msg">
-                    <div class="button-box">
-                        <a class="join" href="join.html">Join Now</a>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
+    <meta
+      property="og:image"
+      content="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/sanmateoca/SSF-City-Hall-by-Billy-Hustace---given-with-permission-by-SSF_FEF3229E-5056-A36A-0B8314AC1410463D-fef320315056a36_fef32c0c-5056-a36a-0b6cef0855ac14ce.jpg"
+    />
 
+    <title>Manhattan Chamber of Commerce</title>
+
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <button id="menu"></button>
+        <nav class="navigation">
+          <a href="index.html" class="active">Home</a>
+          <a href="discover.html">Discover</a>
+          <a href="directory.html">Directory</a>
+          <a href="join.html">Join</a>
+        </nav>
+      </header>
+
+      <div id="hero">
+        <div id="hero-box">
+          <img
+            id="hero-img"
+            src="images/hero.png"
+            alt="Manhattan view during beautiful fall sunny day."
+          />
+          <section id="nopad" class="main-hero">
+            <h3>Welcome to our Beautiful City!</h3>
+            <a href="join.html" class="a-button">Join Us!</a>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="header-today"><p></p></div>
     <h1 class="home-title">Welcome to the Manhattan Chamber of Commerce!</h1>
     <h4>Veni, vidi, vici.</h4>
 
-    <div class="container">
-        <div id="spotlight">Company Spotlight</div>
-        <div id="news">News</div>
-        <div id="business">Find Local Business</div>
-        <div id="weather">Weather</div>
-    </div>
-   
+    <main class="home-main">
+      <!-- <section id="nopad" class="main-hero">
+        <h3>Welcome to our Beautiful City!</h3>
+        <a href="join.html" class="a-button">Join Us!</a>
+      </section> -->
+      <section class="main-event">
+        <h3>Haunted Mill Closed for Season</h3>
+        <p class="centered-image">
+          <img
+            src="./images/haunted-mill.png"
+            alt="The haunted mill in Teton Idaho"
+          />
+        </p>
+        <p>
+          After a successful 2022 with hundreds of satisfied customers, the
+          Haunted Mill has closed for the season.
+        </p>
+        <p>
+          Be sure to join us in fall of 2023 for even more frights and scares!
+        </p>
+      </section>
+      <section class="main-weather">
+        <h2>Weather</h2>
+        <div>
+          <img id="weathericon" src="./images/sunny.png" alt="weather icon" />
+          <h2><span id="temperature">?</span>&deg; F</h2>
+        </div>
+        <h2 id="weatherdesc">?</h2>
+        <hr />
+        <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
+      </section>
+      <section class="main-news">
+        <h3>Race to the Moon at Teton Elementary</h3>
+        <p class="centered-image">
+          <img
+            src="./images/teton-elementary-ice-320.jpg"
+            alt="Teton Elementary school children playing"
+          />
+        </p>
+        <p>
+          Teton Elementary in Teton, Idaho started a "Race to the Moon" project
+          last September to promote physical activity while learning about
+          space.
+        </p>
+        <p>
+          They say they are trying to collect enough exercise miles to
+          figuratively make it to the moon.
+        </p>
+        <p>
+          Along the way, teachers involved say they are also learning about
+          geography. They would like to have people from all around the world
+          submit 'exercise donations' from any place in the world.
+        </p>
+        <p>
+          They report so far they have received donations from 30 different
+          states and 26 different countries. Now that it is winter and people
+          are not out as much, they say it is harder to get miles. They are
+          asking people around the community and world to donate their exercise
+          miles to help get to the moon.
+        </p>
+        <p>
+          "We need everyone's help! Could you please help us spread the word to
+          the public by promoting our activity?"
+        </p>
+        <!-- <p>
+          Courtsey of
+          <a
+            href="https://localnews8.com/news/local-news/2023/01/18/teton-elementary-on-the-way-to-the-moon/"
+            >localnews8.com</a >
+        </p> -->
+      </section>
+      <section class="main-spotlight"></section>
+      <section class="main-join">
+        <h3>Join Us</h3>
+        <p>
+          Join the Teton Chamber of Commerce and experience all of the helpful
+          benefits.
+        </p>
+        <p><a href="join.html" class="a-button">Join Us!</a></p>
+      </section>
+    </main>
     <footer>
-        <p>&copy; <span class="current_year"></span> Rubinel Youan Bi | Rexburg, ID, United States </p>
-        <p>Last Updated: <span id="lastModified"></span></p>
+      <p>
+        &copy; <span class="current_year"></span> Rubinel Youan Bi | Rexburg,
+        ID, United States
+      </p>
+      <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
 
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/menu.js"></script>
-    
-</body>
+    <!-- <script src="scripts/getDates.js"></script> -->
+    <script src="scripts/main.js"></script>
+    <!-- <script src="scripts/menu.js"></script> -->
+  </body>
 </html>

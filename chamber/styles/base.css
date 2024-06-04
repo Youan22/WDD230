@@ -175,7 +175,6 @@ h4 {
   grid-area: spotlight;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
-  padding-bottom: 0cap;
 }
 
 /* #event {
@@ -373,7 +372,7 @@ form label {
   height: auto;
 }
 
-/* Directory Page Stuff */
+/* Directory Page Stuff 
 .directory-main {
   width: 100%;
 }
@@ -388,14 +387,14 @@ form label {
   margin: 0.5rem;
   border-radius: 5px;
   background-color: var(--darker-green);
-  border: 1px black solid;
+  border: 1px solid black;
 }
 
 #directory-selector button.active {
   background-color: rgb(214, 71, 19);
 }
 
-/* Cards view */
+ Cards view 
 
 .directory-cards {
   display: grid;
@@ -412,7 +411,7 @@ form label {
   margin: 0.5rem;
 }
 
-/* List View */
+ List View 
 
 .directory-list {
   display: grid;
@@ -448,175 +447,7 @@ form label {
   background-color: var(--dark-green);
 }
 
-Directory Page Stuff .directory-main {
-  width: 100%;
-}
-
-#directory-selector {
-  width: 100%;
-  text-align: center;
-}
-
-#directory-selector button {
-  padding: 1rem;
-  margin: 0.5rem;
-  border-radius: 5px;
-  background-color: var(--darker-green);
-  border: 1px solid black;
-}
-
-#directory-selector button.active {
-  background-color: rgb(214, 71, 19);
-}
-
-/* --------Cards view ----------  */
-.directory-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 1rem;
-  justify-items: center;
-  padding: 1rem;
-}
-
-.directory-cards section {
-  text-align: center;
-  border: 2px solid navy;
-  width: 300px;
-  background-color: var(--darker-green);
-  padding: 1rem;
-  margin: 0.5rem;
-}
-
-.directory-cards img {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  object-fit: contain;
-}
-
--------List View-------- .directory-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-
-.directory-list section {
-  display: grid;
-  grid-template-columns: 100px 2fr 1fr 1fr;
-  width: 100%;
-  max-width: 800px;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border: 2px solid navy;
-  background-color: var(--darker-green);
-  gap: 1rem;
-  align-items: center;
-}
-
-.directory-list section img {
-  width: 100px;
-  height: auto;
-  display: block;
-}
-
-.directory-list section:nth-child(odd) {
-  background-color: var(--darker-green);
-}
-
-.directory-list section:nth-child(even) {
-  background-color: var(--dark-green);
-}
-
-.directory-main a {
-  color: lightgrey;
-}
-
-.directory-main a:visited {
-  color: lightgrey;
-}
-
-Gold member styles .gold-member {
-  border-color: gold;
-}
-*/
-
- /* Directory Page Stuff 
-.directory-main{
-  width: 100%;
-}
-
-#directory-selector{
-  width: 100%;
-  text-align: center;
-}
-
-#directory-selector button{
-  padding: 1rem;
-  margin: .5rem;
-  border-radius: 5px;
-  background-color: var(--darker-green);
-  border: 1px black solid;
-}
-
-#directory-selector button.active{
-  background-color: orangered;
-}
-
- -------Cards view---------- 
-
-.directory-cards{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  justify-items: center;
-}
-
-.directory-cards section{
-  text-align: center;    
-  border: 2px solid grey;    
-  width: 300px;
-  background-color: var(--darker-green);
-  padding: 1rem;
-  margin: .5rem;
-}
-
- List View 
-
-.directory-list{    
-  display: grid;
-  justify-items: center;   
-  padding: 1rem;    
-}
-
-.directory-main a{    
-  color: lightgrey;
-}
-
-.directory-main a:visited{    
-  color: lightgrey;
-}
-
-.directory-list section img{
-  display: none;
-}
-
-.directory-list section {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  width: 70%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.directory-list section:nth-child(odd) {
-  background-color: var(--darker-green);
-}
-
-.directory-list section:nth-child(even) {
-  background-color: var(--dark-green);
-} 
-
-/* ----------Directory Page Stuff--------------------- */
+ Directory Page Stuff 
 .directory-main {
   width: 100%;
 }
@@ -638,6 +469,101 @@ Gold member styles .gold-member {
   background-color: orangered;
 }
 
+ Cards view 
+.directory-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem; /* Add gap between items 
+  justify-items: center;
+  padding: 1rem; /* Add padding for better spacing *
+}
+
+.directory-cards section {
+  text-align: center;
+  border: 2px solid grey;
+  width: 300px;
+  background-color: var(--darker-green);
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directory-cards img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+* List View *
+.directory-list {
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.directory-main a {
+  color: lightgrey;
+}
+
+.directory-main a:visited {
+  color: lightgrey;
+}
+
+.directory-list section img {
+  display: none;
+}
+
+.directory-list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 70%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+  background-color: var(--darker-green);
+}
+
+.directory-list section:nth-child(even) {
+  background-color: var(--dark-green);
+}
+*/
+
+:root {
+  --primary-color: #007da5; /* Blue */
+  --secondary-color: #006184; /* Darker Blue */
+  --background-color: #ffffff; /* White */
+  --accent-color: #007da5; /* Blue */
+  --darker-green: #006184; /* Darker Blue */
+  --dark-green: #006184; /* Darker Blue */
+}
+
+/* Directory Page Stuff */
+.directory-main {
+  width: 100%;
+}
+
+#directory-selector {
+  width: 100%;
+  text-align: center;
+}
+
+#directory-selector button {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--darker-green);
+  border: 1px solid black;
+}
+
+#directory-selector button.active {
+  background-color: var(--accent-color); /* Use accent color */
+}
+
 /* Cards view */
 .directory-cards {
   display: grid;
@@ -649,9 +575,9 @@ Gold member styles .gold-member {
 
 .directory-cards section {
   text-align: center;
-  border: 2px solid grey;
+  border: 2px solid var(--primary-color); /* Use primary color */
   width: 300px;
-  background-color: var(--darker-green);
+  background-color: var(--primary-color); /* Use primary color */
   padding: 1rem;
   margin: 0.5rem;
   display: flex;
@@ -674,11 +600,11 @@ Gold member styles .gold-member {
 }
 
 .directory-main a {
-  color: lightgrey;
+  color: var(--secondary-color); /* Use secondary color */
 }
 
 .directory-main a:visited {
-  color: lightgrey;
+  color: var(--secondary-color); /* Use secondary color */
 }
 
 .directory-list section img {
