@@ -25,6 +25,10 @@ function displayResults(weatherData) {
 }
 
 async function getTheWeather() {
+  const apiKey = "7a92298dddfaa45a162fd24af9242760"; // Replace "YOUR_API_KEY" with your actual API key
+  const city = "New York";
+  const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+
   try {
     const response = await fetch(apiURL);
     if (response.ok) {
@@ -63,7 +67,7 @@ function displaySpotlights(businessList) {
 }
 
 async function getBusinessData() {
-  const response = await fetch("members.json"); // Corrected URL
+  const response = await fetch("data/members.json"); // Corrected URL
   if (response.ok) {
     const data = await response.json();
     displaySpotlights(data.businesses);
