@@ -8,6 +8,7 @@ if (messagedate.getDay() == 2 || messagedate.getDay() == 4) {
 // select HTML elements in the document
 const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("#description");
+const windSpeedSpan = document.querySelector("#windspeed"); // New line
 
 function displayResults(weatherData) {
   // You can use @2x or @4x to make the icon bigger, or omit it for the standard size
@@ -15,17 +16,18 @@ function displayResults(weatherData) {
   const desc = weatherData.weather[0].description;
   const main = weatherData.weather[0].main;
   let temperatureSpan = document.querySelector("#temperature");
-  let windSpeedSpan = document.querySelector("#windspeed");
 
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
   weatherDesc.textContent = main;
   temperatureSpan.textContent = weatherData.main.temp.toFixed(0);
-  windSpeedSpan.textContent = weatherData.wind.speed.toFixed(0);
+  windSpeedSpan.textContent = `Wind speed: ${weatherData.wind.speed.toFixed(
+    0
+  )} mph`; // Updated line
 }
 
 async function getTheWeather() {
-  const apiKey = "7a92298dddfaa45a162fd24af9242760"; // Replace "YOUR_API_KEY" with your actual API key
+  const apiKey = "7a92298dddfaa45a162fd24af9242760"; // Replace "APIKey" with your actual API key
   const city = "New York";
   const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
