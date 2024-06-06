@@ -102,7 +102,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1,
 h4 {
   font-family: "Roboto";
   font-size: 30px;
@@ -625,4 +624,179 @@ form label {
 
 .directory-list section:nth-child(even) {
   background-color: var(--dark-green);
+}
+
+/** Main Page Stuff **/
+
+.a-button {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: var(--brown);
+}
+
+.home-main section {
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: var(--brown);
+}
+
+.home-main div {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.home-main h3 {
+  text-align: center;
+}
+
+.home-main img {
+  max-width: 100%;
+}
+
+.main-hero {
+  grid-area: h;
+  position: relative;
+  background-image: url("../images/teton-river-900.jpg");
+  background-position: center;
+  text-align: center;
+  height: 400px;
+}
+
+.main-hero p {
+  margin: 0;
+}
+
+.main-hero h2 {
+  background-color: var(--brown);
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding: 0.5rem;
+}
+
+.hero-image {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+  padding: 20px;
+}
+
+.hero-text h3 {
+  margin-bottom: 10px;
+}
+
+.a-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #396e94;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.a-button:hover {
+  background-color: #305d7d;
+}
+
+#nopad {
+  padding: 0;
+}
+
+.main-event {
+  grid-area: e;
+}
+
+.main-event img {
+  border: 2px solid black;
+}
+
+.main-event h1 {
+  text-align: center;
+}
+
+.main-news {
+  grid-area: n;
+}
+
+.centered-image {
+  text-align: center;
+}
+
+.main-news img {
+  border: 2px solid black;
+}
+
+.main-news h1 {
+  text-align: center;
+}
+
+.main-weather {
+  grid-area: w;
+  text-align: center;
+}
+
+.main-join {
+  grid-area: j;
+  display: none;
+}
+
+.main-join p,
+.main-join h1 {
+  text-align: center;
+}
+
+.main-join button {
+  border-radius: 5px;
+  background-color: var(--tan);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.main-join button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.main-join button:hover {
+  background-color: var(--brown);
+  color: white;
+}
+
+.main-spotlight {
+  grid-area: x;
+}
+
+.main-spotlight div {
+  background-color: var(--tan);
+}
+
+.main-spotlight img {
+  border: 2px black solid;
+  max-width: 100%;
+}
+
+.main-spotlight h4,
+.main-spotlight h1 {
+  text-align: center;
+}
+
+.main-spotlight p {
+  text-align: center;
 }
