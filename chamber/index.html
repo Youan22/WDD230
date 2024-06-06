@@ -85,56 +85,72 @@
           Manhattan.
         </p>
       </section>
-      <section class="main-weather">
+      <section class="card">
         <h2>Weather</h2>
-        <div>
-          <img id="weathericon" src="./images/sunny.png" alt="weather icon" />
-          <h2><span id="temperature">?</span>&deg; F</h2>
-        </div>
-        <h2 id="weatherdesc">?</h2>
-        <hr />
-        <h3>Wind Speed: <span id="windspeed">?</span> mph</h3>
+
+        <h3 id="town"></h3>
+        <img id="weather-icon" src="" alt="" />
+        <p id="description"></p>
+        <p id="temperature"></p>
+        <p>Number of visit: <span id="numberVisit"></span></p>
       </section>
       <section class="main-news">
-        <h3>Race to the Moon at Teton Elementary</h3>
+        <h3>Te Rockefeller Center</h3>
         <p class="centered-image">
           <img
-            src="./images/teton-elementary-ice-320.jpg"
-            alt="Teton Elementary school children playing"
+            src="./images/rockefeller-center.jpg"
+            alt="The Rockefeller Center"
           />
         </p>
         <p>
-          Teton Elementary in Teton, Idaho started a "Race to the Moon" project
-          last September to promote physical activity while learning about
-          space.
+          Welcome to the iconic Rockefeller Center, a timeless symbol of art,
+          culture, and innovation nestled in the heart of New York City.
         </p>
         <p>
-          They say they are trying to collect enough exercise miles to
-          figuratively make it to the moon.
+          Explore the rich history and vibrant energy of this historic landmark,
+          where art deco grandeur meets modern sophistication. From its storied
+          past as a beacon of hope during the Great Depression to its status as
+          a bustling hub of entertainment and commerce today, the Rockefeller
+          Center has captivated the imagination of millions around the world.
+          Step into the bustling plaza, where the famous Prometheus statue
+          stands guard over visitors from near and far.
+        </p>
+
+        <p>
+          Join us as we celebrate the legacy and beauty of this beloved New York
+          City landmark. Welcome to Rockefeller Center – where history, culture,
+          and innovation collide in spectacular fashion.
+        </p>
+
+        <p>
+          Marvel at the stunning architecture of the Art Deco skyscrapers that
+          line the skyline, each one a testament to the vision and ambition of
+          its creators.
         </p>
         <p>
-          Along the way, teachers involved say they are also learning about
-          geography. They would like to have people from all around the world
-          submit 'exercise donations' from any place in the world.
+          Experience the magic of Rockefeller Center during the holiday season,
+          when the iconic Christmas tree dazzles with thousands of twinkling
+          lights and ice skaters glide gracefully across the rink below. Feel
+          the excitement of live performances at Radio City Music Hall, or take
+          in breathtaking views of the city from the Top of the Rock observation
+          deck.
+        </p>
+
+        <p>
+          Whether you're strolling through the art galleries, dining at one of
+          the world-class restaurants, or simply soaking in the vibrant
+          atmosphere, Rockefeller Center offers something for everyone to enjoy.
         </p>
         <p>
-          They report so far they have received donations from 30 different
-          states and 26 different countries. Now that it is winter and people
-          are not out as much, they say it is harder to get miles. They are
-          asking people around the community and world to donate their exercise
-          miles to help get to the moon.
-        </p>
-        <p>
-          "We need everyone's help! Could you please help us spread the word to
-          the public by promoting our activity?"
-        </p>
-        <!-- <p>
+          <!-- <p>
           Courtsey of
           <a
             href="https://localnews8.com/news/local-news/2023/01/18/teton-elementary-on-the-way-to-the-moon/"
             >localnews8.com</a >
         </p> -->
+        </p>
       </section>
+      <!-- 
       <section class="main-spotlight"></section>
       <section class="main-join">
         <h3>Join Us</h3>
@@ -143,7 +159,7 @@
           benefits.
         </p>
         <p><a href="join.html" class="a-button">Join Us!</a></p>
-      </section>
+      </section> -->
     </main>
     <footer>
       <p>
@@ -153,8 +169,9 @@
       <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
 
-    <!-- <script src="scripts/getDates.js"></script> -->
-    <script src="scripts/main.js"></script>
-    <!-- <script src="scripts/menu.js"></script> -->
+    <script src="scripts/getDates.js"></script>
+    <script src="week05/scripts/weather.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
+    <script src="scripts/menu.js"></script>
   </body>
 </html>
